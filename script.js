@@ -3,6 +3,7 @@ const mobileMenu = document.querySelectorAll('[data-show]');
 const closeTrigger = document.querySelectorAll('[data-close-btn]');
 const overlay = document.querySelector('[data-overlay]');
 
+
 for (let i = 0; i<menuTrigger.length; i++) {
      
     const closeMenu = function() {
@@ -14,6 +15,7 @@ for (let i = 0; i<menuTrigger.length; i++) {
         mobileMenu[i].classList.add('active');
         overlay.classList.add('active');
     })
+
     closeTrigger[i].addEventListener('click', closeMenu);
     overlay.addEventListener('click', closeMenu);
 }
@@ -35,6 +37,7 @@ const submenu = document.querySelectorAll('.sub-trigger');
     slidesPerGroup: false,
     spaceBetween:20,
    })
+
    var theTab = new Swiper('.tabs-box',{
     slidesPerView: 1,
     autoHeight: true,

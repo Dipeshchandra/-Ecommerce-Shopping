@@ -499,8 +499,6 @@ main > div {
 }
 
 
-
- 
 .product {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -847,7 +845,6 @@ footer .socials a:hover {
         height: 320px;
     }
 }
-
 
 @media only screen and (min-width: 992px) {
     .header-main .menu-trigger {
